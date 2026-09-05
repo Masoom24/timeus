@@ -57,7 +57,6 @@ const slides = [
 ];
 
 /* ── Animation variants ── */
-const fadeUp   = { hidden: { opacity: 0, y: 50 }, visible: { opacity: 1, y: 0 } };
 const fadeLeft = { hidden: { opacity: 0, x: 60 }, visible: { opacity: 1, x: 0 } };
 
 /* ── Animated text: splits by word ── */
