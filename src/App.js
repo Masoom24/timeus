@@ -596,6 +596,7 @@ function XpsSlide({ slide, goTo, index, dark }) {
             {i === 0 && <div className={`w-48 h-px mt-4 ${dark ? "bg-[#071a49]/20" : "bg-white/20"}`} />}
           </motion.div>
         ))}
+        {/* . */}
         <motion.button
           initial={{ opacity: 0, y: 20 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
