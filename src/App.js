@@ -734,7 +734,7 @@ function Header({ active, dark, toggleDark }) {
         <span className="font-light opacity-80">Technologies</span>
       </motion.div>
 
-      <div className="hidden md:flex items-center gap-2">
+      {/* <div className="hidden md:flex items-center gap-2">
         {slides.map((_, i) => (
           <motion.div
             key={i}
@@ -744,7 +744,7 @@ function Header({ active, dark, toggleDark }) {
             whileHover={{ scale: 1.3 }}
           />
         ))}
-      </div>
+      </div> */}
 
       <div className="flex items-center gap-3">
         <motion.button
@@ -877,7 +877,7 @@ export default function App() {
       </motion.div>
 
       {/* Side navigation dots */}
-      <div className="fixed z-50 right-4 top-1/2 -translate-y-1/2 flex flex-col gap-3">
+      {/* <div className="fixed z-50 right-4 top-1/2 -translate-y-1/2 flex flex-col gap-3">
         {slides.map((_, i) => (
           <motion.button
             key={i}
@@ -890,7 +890,7 @@ export default function App() {
             }`}
           />
         ))}
-      </div>
+      </div> */}
 
       {slides.map((slide, index) => (
         <div
