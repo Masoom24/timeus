@@ -719,7 +719,7 @@ function Header({ active, dark, toggleDark }) {
     ? scrolled ? "bg-white/95 backdrop-blur-md shadow-lg shadow-black/10" : "bg-white"
     : scrolled ? "bg-[#071a49]/95 backdrop-blur-md shadow-lg shadow-black/30" : "bg-[#071a49]";
   const textColor  = dark ? "text-[#071a49]" : "text-white";
-  const dotInactive = dark ? "bg-[#071a49]/25" : "bg-white/30";
+
   const borderColor = dark ? "border-[#071a49]/50" : "border-white/50";
 
   return (
